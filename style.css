@@ -1,0 +1,20 @@
+body{
+   text-align: justify;
+   background-color: gainsboro;
+}
+
+.header {
+   display: inline-block;
+   background-color: grey;
+   width: fit-content;
+   align-items: center;
+}
+
+.nav-menu {
+   display: flex;
+   
+}
+
+.home-body{
+   margin: 2%;
+}
