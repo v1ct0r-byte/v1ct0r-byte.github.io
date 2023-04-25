@@ -3,18 +3,35 @@ body{
    background-color: gainsboro;
 }
 
+.logo-upv {
+   display: block;
+}
+
 .header {
+   padding: 1%;
    display: inline-block;
    background-color: grey;
-   width: fit-content;
    align-items: center;
+   width: auto;
+}
+
+.footer {
+   padding: 1%;
+   background-color: grey;
+   justify-content: center;
 }
 
 .nav-menu {
-   display: flex;
-   
+   text-align: center;
+   margin: 0;
+   padding: 0;
+}
+
+.nav-menu li{
+   display: inline-block;
+   border: 1px solid black;
 }
 
 .home-body{
-   margin: 2%;
+   padding: 2%;
 }
