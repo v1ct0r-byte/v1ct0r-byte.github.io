@@ -4,15 +4,21 @@ body{
 }
 
 .header {
-   display: inline-block;
+   display: inline-flex;
    background-color: grey;
-   width: fit-content;
    align-items: center;
+   padding: 1%;
 }
 
 .nav-menu {
    display: flex;
    
+}
+
+footer{
+   background-color: gray;
+   text-align: center;
+   padding: 1%;
 }
 
 .home-body{

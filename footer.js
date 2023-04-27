@@ -1,0 +1,2 @@
+var lastModificationDate = new Date(document.lastModified);
+document.getElementById("footer").innerHTML = '&copy ' + lastModificationDate.getFullYear() + '. All rights reserved. Website updated on ' + lastModificationDate;
