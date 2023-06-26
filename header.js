@@ -9,7 +9,7 @@ function create(htmlStr) {
 }
 
 // Create and insert image into header
-var img = create('<img src="images/UPV-Emblem2.png" width="15%">');
+var img = create('<img class="logo-upv" src="images/UPV-Emblem2.png" width="10%">');
 document.getElementById("header").insertBefore(img, document.getElementById("header").childNodes[0]);
 
 // Create and insert credentials into header
@@ -17,5 +17,5 @@ document.getElementById("header").insertBefore(img, document.getElementById("hea
 //document.getElementById("header").insertBefore(cred, document.getElementById("header").childNodes[1]);
 
 // Create and insert navMenu into header
-var navMenu = create('<nav class="nav-menu"><ul><li><a href="index.html">Home</a></li><li><a href="projects.html">Projects</a></li><li><a href="publications.html">Publications</a></li><li><a href="contact.html">Contact</a></li></ul></nav>');
+var navMenu = create('<nav class="nav-menu"><a href="index.html">Home</a><a href="projects.html">Projects</a><a href="publications.html">Publications</a><a href="contact.html">Contact</a></nav>');
 document.getElementById("header").insertBefore(navMenu, document.getElementById("header").childNodes[2]);

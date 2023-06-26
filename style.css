@@ -8,8 +8,8 @@ body{
 }
 
 .header {
-   display: inline-flex;
-   justify-content: space-around;
+   display: flex;
+   justify-content: space-between;
    background-color: grey;
    align-items: center;
    padding: 1%;
@@ -22,20 +22,18 @@ body{
 }
 
 .nav-menu {
+   width: fit-content;
    text-align: center;
-   margin: 0;
-   padding: 0;
-   margin-right: 0;
+   display: flex;
+   padding-right: 6%;
 }
 
-.nav-menu li{
-   display: inline;
-   justify-content: space-around;
+.nav-menu a{
    border: 1px solid black;
-   padding: 4%;
-   margin: 1%;
    background-color: gainsboro;
    border-radius: 10px;
+   padding: 4%;
+   margin: 1%;
 }
 
 footer{
