@@ -23,17 +23,16 @@ body{
 
 .nav-menu {
    width: fit-content;
+   height: fit-content;
    text-align: center;
    display: flex;
-   padding-right: 6%;
 }
 
 .nav-menu a{
    border: 1px solid black;
+   padding: 10px;
    background-color: gainsboro;
-   border-radius: 10px;
-   padding: 4%;
-   margin: 1%;
+   border-radius: 2px;
 }
 
 footer{
