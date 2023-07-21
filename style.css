@@ -15,12 +15,6 @@ body{
    padding: 1%;
 }
 
-.footer {
-   padding: 1%;
-   background-color: grey;
-   justify-content: center;
-}
-
 .nav-menu {
    width: fit-content;
    height: fit-content;
