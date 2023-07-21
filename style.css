@@ -35,6 +35,10 @@ body{
    border-radius: 2px;
 }
 
+.nav-menu a:hover{
+   background-color: white;
+}
+
 footer{
    background-color: gray;
    text-align: center;
