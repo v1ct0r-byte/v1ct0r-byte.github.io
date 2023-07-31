@@ -1,8 +1,3 @@
-body{
-   text-align: justify;
-   background-color: gainsboro;
-}
-
 .logo-upv {
    display: block;
 }
@@ -36,7 +31,17 @@ body{
 footer{
    background-color: gray;
    text-align: center;
-   padding: 1px;
+   padding: 1%;
+   position: absolute;
+   right: 0;
+   left: 0;
+   bottom: 0;
+   margin: inherit;
+}
+
+body{
+   text-align: justify;
+   background-color: gainsboro;
 }
 
 .home-body{
