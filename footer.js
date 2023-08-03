@@ -1,16 +1,19 @@
 var lastModificationDate = new Date(document.lastModified);
 var dayLetters = '';
-var day = lastModificationDate.getDay();
-if ((day % 10) == 1) {
+var day = lastModificationDate.getDay() - 1;
+console.log(day);
+var dayMOD10 = day % 10;
+if (dayMOD10 == 1) {
     dayLetters = 'st';
-} else if ((day % 10) == 2){
+} else if (dayMOD10 == 2){
     dayLetters = 'nd';
-} else if ((day % 10) == 3){
+} else if (dayMOD10 == 3){
     dayLetters = 'rd';
 } else {
     dayLetters = 'th';
 }
-var month = lastModificationDate.getMonth();
+// Gets current month. +1 because getMonth is 0 indexed
+var month = lastModificationDate.getMonth() + 1;
 var monthString = '';
 switch (month) {
     case 1: 
@@ -37,7 +40,7 @@ switch (month) {
     case 8: 
         monthString = 'August';
         break;
-        case 9: 
+    case 9: 
         monthString = 'September';
         break;
     case 10: 
