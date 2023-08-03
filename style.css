@@ -51,3 +51,10 @@ body{
 .publications-div{
    margin: 2%;
 }
+
+.project-div{
+   margin: 2%;
+   padding: 1%;
+   border-radius: 5px;
+   border: 1px solid black;
+}
