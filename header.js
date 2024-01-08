@@ -17,5 +17,5 @@ document.getElementById("header").insertBefore(img, document.getElementById("hea
 //document.getElementById("header").insertBefore(cred, document.getElementById("header").childNodes[1]);
 
 // Create and insert navMenu into header
-var navMenu = create('<nav class="nav-menu"><a href="index.html">Home</a><a href="projects.html">Projects</a><a href="publications.html">Publications</a><a href="contact.html">Contact</a></nav>');
+var navMenu = create('<nav class="nav-menu"><a href="index.html">Home</a><a href="projects.html">Projects</a><a href="publications.html">Publications</a><a href="activities.html">Activities</a><a href="contact.html">Contact</a></nav>');
 document.getElementById("header").insertBefore(navMenu, document.getElementById("header").childNodes[2]);
