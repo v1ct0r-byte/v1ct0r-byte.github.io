@@ -9,7 +9,7 @@ function create(htmlStr) {
 }
 
 // Create and insert image into header
-var img = create('<img class="logo-upv" src="images/UPV-Emblem2.png" width="10%">');
+var img = create('<a href="https://www.upv.es/index-en.html"><img class="logo-upv" src="images/UPV-Emblem2.png" width="10%"></a>');
 document.getElementById("header").insertBefore(img, document.getElementById("header").childNodes[0]);
 
 // Create and insert credentials into header
