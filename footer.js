@@ -1,7 +1,6 @@
 var lastModificationDate = new Date(document.lastModified);
 var dayLetters = '';
-var day = lastModificationDate.getDay() - 1;
-console.log(day);
+var day = lastModificationDate.getUTCDate();
 var dayMOD10 = day % 10;
 if (dayMOD10 == 1) {
     dayLetters = 'st';
