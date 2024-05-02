@@ -52,4 +52,4 @@ switch (month) {
         monthString = 'December';
         break;
 }
-document.getElementById("footer").innerHTML = '&copy ' + lastModificationDate.getFullYear() + '. All rights reserved. Website updated the ' + lastModificationDate.getDate() + dayLetters + ' of ' + monthString + ', ' + lastModificationDate.getFullYear() + '.';
+document.getElementById("footer").innerHTML = '&copy ' + lastModificationDate.getFullYear() + '. All rights reserved. Website updated on ' + monthString + ' ' + lastModificationDate.getDate() + dayLetters + ', ' + lastModificationDate.getFullYear() + '.';
