@@ -62,3 +62,16 @@ body{
    border-radius: 5px;
    border: 1px solid black;
 }
+
+.ballad-div{
+   padding: 2%;
+   text-align: center;
+   align-content: center;
+}
+
+.ballad-text{
+   width: auto;
+   display: grid;
+   place-content: center;
+   text-align: left;
+}

@@ -52,4 +52,8 @@ switch (month) {
         monthString = 'December';
         break;
 }
-document.getElementById("footer").innerHTML = '&copy ' + lastModificationDate.getFullYear() + '. All rights reserved. Website updated on ' + monthString + ' ' + lastModificationDate.getDate() + dayLetters + ', ' + lastModificationDate.getFullYear() + '.';
+document.getElementById("footer").innerHTML = '&copy ' + lastModificationDate.getFullYear() + '. All rights reserved. Webpage updated on ' + monthString + ' ' + lastModificationDate.getDate() + dayLetters + ', ' + lastModificationDate.getFullYear() + '.';
+
+// Easter egg image for footer
+var img = create('<a href="easter-egg.html"><img src="images/crown.png" width="1%" style="float: right;"></a>');
+document.getElementById("footer").insertBefore(img, document.getElementById("footer").childNodes[1]);
