@@ -79,3 +79,8 @@ body{
    place-content: center;
    text-align: left;
 }
+
+.profile-picture{
+   border-radius: 50%;
+   height: 170px;
+}
