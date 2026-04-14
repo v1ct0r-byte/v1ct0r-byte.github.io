@@ -28,24 +28,26 @@
    background-color: white;
 }
 
-footer{
-   background-color: gray;
-   text-align: center;
-   padding: 1%;
-   position: absolute;
-   right: 0;
-   left: 0;
-   bottom: 0;
-   margin: inherit;
+html, body {
+  height: 100%;
+  margin: 0;
 }
 
-body{
-   text-align: justify;
-   background-color: gainsboro;
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: gainsboro;
+  text-align: justify;
 }
 
-.page-container{
-   position: relative;
+.page-container {
+  flex: 1;          /* ✅ makes footer stick to bottom */
+}
+
+footer {
+  background-color: gray;
+  text-align: center;
+  padding: 1rem;
 }
 
 .home-body{
