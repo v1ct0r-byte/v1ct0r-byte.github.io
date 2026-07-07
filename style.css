@@ -162,6 +162,45 @@ a:hover {
   border-radius: 6px;
 }
 
+/* ---------- Contact page ---------- */
+
+.contact-card {
+    max-width: 600px;
+    margin: 3rem auto;
+    padding: 2.5rem;
+
+    background-color: white;
+    border: 1px solid var(--border-soft);
+    border-radius: 10px;
+
+    text-align: center;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.contact-email {
+    font-size: 1.1rem;
+    margin: 1.5rem 0;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+
+.contact-links img {
+    width: 48px;
+    height: 48px;
+    transition: transform 0.2s ease;
+}
+
+.contact-links img:hover {
+    transform: scale(1.1);
+}
+
 /* ---------- Footer ---------- */
 
 footer {
